@@ -1,0 +1,85 @@
+#section6
+    text-align: center
+    width: 100%
+    padding: 10px 10% 10px 10%
+    margin-bottom: 50px
+#section6-row
+    height: 350px
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    gap: 30px
+
+.section6-card
+    position: relative
+    height: 100%
+    width: 25%
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    .section6-card-img
+        height: 75%
+        width: 100%
+        background-color: #aaa
+        background-size: cover
+        background-repeat: no-repeat
+    .section6-card-content
+        height: 25%
+        width: 100%
+        background-color: white
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        .section6-role
+            font-family: robotoT
+            opacity: 0.5
+            font-size: 0.8em
+    .section6-card-links
+        position: absolute
+        bottom: 25%
+        height: 10%
+        width: 100%
+        background-color: rgb(255, 255, 255,0.5)
+        display: flex
+        justify-content: center
+        align-items: center
+        gap: 2%
+        opacity: 0
+        a:hover
+                transition: 0.2s
+                color: rgb(228,60,90) !important
+    &:hover
+        .section6-card-links
+            transition: 0.2s
+            opacity: 1
+            
+#section6-card1
+    .section6-card-img
+        background-image: url(../img/team/team-1.jpg)
+#section6-card2
+    .section6-card-img
+        background-image: url(../img/team/team-2.jpg)
+#section6-card3
+    .section6-card-img
+        background-image: url(../img/team/team-3.jpg)
+#section6-card4
+    .section6-card-img
+        background-image: url(../img/team/team-4.jpg)
+
+@media (max-width: 1024px) and (min-width: 600px)
+
+    #section6-row
+        height: 700px
+        flex-wrap: wrap
+        .section6-card
+            height: 50%
+            width: 45%
+
+@media (max-width: 600px) and (min-width: 320px)
+
+    #section6-row
+        height: 1400px
+        flex-wrap: wrap
+        .section6-card
+            height: 25%
+            width: 100%

@@ -1,7 +1,6 @@
 {
   "name": "9",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +11,14 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.2.1",
     "bootstrap": "^5.2.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bobby-Jack/Projet_Nomdutemplate_Ryad_Sofian.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bobby-Jack/Projet_Nomdutemplate_Ryad_Sofian/issues"
+  },
+  "homepage": "https://github.com/Bobby-Jack/Projet_Nomdutemplate_Ryad_Sofian#readme",
+  "description": ""
 }

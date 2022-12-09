@@ -1,0 +1,145 @@
+#section3
+    height: 850px
+    width: 100%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    font-family: roboto
+
+.section3-box
+    height: 80%
+    width: 80%
+    margin: auto
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-between
+
+.section3-div1
+    height: 20%
+    width: 100%
+    text-align: center
+    button
+        background-color: rgb(253,239,242)
+        color: rgb(228,60,90)
+        height: 28px
+        width: 90px
+        border: none
+        border-radius: 30px
+    h2
+        font-weight: bold
+    span
+        color: rgb(228,60,90)
+        font-weight: bold
+
+.section3-div2
+    height: 38%
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+.section3-div3
+    height: 38%
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+.section-3-card
+    height: 95%
+    width: 22%
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    text-align: center
+    i
+        color: rgb(228,60,90)
+
+.section-3-card-a
+    height: 95%
+    width: 22%
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-between
+
+.section3-card2
+    height: 30%
+    width: 100%
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    display: flex
+    &:hover
+        color: rgb(228,60,90)
+
+.section3-div2
+    .colo
+        display: inline-block
+        position: relative
+        z-index: 1
+        &::after
+            content: ''
+            position: absolute
+            width: 100%
+            transform: scaleY(0)
+            height: 100%
+            bottom: 0
+            left: 0
+            background-color: rgb(228,60,90)
+            transform-origin: bottom
+            transition: transform 0.25s ease-out
+            z-index: -1
+        &:hover
+            &::after
+                transform: scaleX(1)
+                transform-origin: bottom
+            h6,p,i
+                color: white !important
+                transition: 0.1s
+        h6,p,i
+            z-index: 2!important
+
+@media (max-width: 1024px) and (min-width: 600px)
+
+    #section3
+        height: 1500px
+    .section3-div2
+        flex-wrap: wrap
+
+    .section-3-card
+        height: 40%
+        width: 48%
+        br
+            display: none
+
+    .section3-div1
+        height: 10%
+
+    .section-3-card-a
+        height: 40%
+        width: 48%
+
+    .section3-div3
+        flex-wrap: wrap
+
+@media (max-width: 600px) and (min-width: 320px)
+
+    #section3
+        height: 3000px
+    .section3-div2
+        flex-wrap: wrap
+
+    .section-3-card
+        height: 20%
+        width: 100%
+        br
+            display: none
+
+    .section3-div1
+        height: 2%
+
+    .section-3-card-a
+        height: 20%
+        width: 100%
+
+    .section3-div3
+        flex-wrap: wrap
