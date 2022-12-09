@@ -21428,7 +21428,6 @@ textarea.form-control-lg {
 
 #section8-Top {
   justify-content: space-around;
-  background-color: red;
   height: fit-content;
 }
 
@@ -21442,6 +21441,11 @@ textarea.form-control-lg {
 }
 .section8-link i {
   color: rgb(228, 60, 90);
+}
+
+#section8-btn {
+  right: -30px;
+  z-index: 2 !important;
 }
 
 #section8-Bottom {
