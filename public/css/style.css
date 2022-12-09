@@ -21393,7 +21393,7 @@ textarea.form-control-lg {
 }
 
 #section2 {
-  height: 400px;
+  height: 450px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -21408,7 +21408,7 @@ textarea.form-control-lg {
 }
 
 .section2-div1 {
-  height: 40%;
+  height: 45%;
   width: 100%;
   text-align: center;
 }
@@ -21420,9 +21420,16 @@ textarea.form-control-lg {
   border: none;
   border-radius: 30px;
 }
+.section2-div1 h2, .section2-div1 .h2 {
+  font-weight: bold;
+}
+.section2-div1 span {
+  color: rgb(228, 60, 90);
+  font-weight: bold;
+}
 
 .section2-div2 {
-  height: 60%;
+  height: 55%;
   width: 100%;
   display: flex;
 }
@@ -21431,10 +21438,26 @@ textarea.form-control-lg {
   height: 95%;
   width: 49%;
 }
+.section2-div2-gauche i {
+  color: rgb(228, 60, 90);
+}
 
 .section2-div2-droite {
   height: 95%;
   width: 49%;
+}
+.section2-div2-droite button {
+  background-color: white;
+  border: solid 2px rgb(228, 60, 90);
+  height: 40px;
+  width: 130px;
+  color: rgb(228, 60, 90);
+  border-radius: 40px;
+  transition: 0.5s;
+}
+.section2-div2-droite button:hover {
+  background-color: rgb(228, 60, 90);
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
