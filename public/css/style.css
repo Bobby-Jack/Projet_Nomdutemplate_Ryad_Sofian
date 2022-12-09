@@ -22900,6 +22900,11 @@ textarea.form-control-lg {
 #section7-col-right {
   flex-grow: 2;
 }
+#section7-col-right button:hover {
+  transition: all 0.2s ease !important;
+  background-color: #822435 !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
 
 .section7-info {
   display: flex;
