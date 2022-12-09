@@ -21346,7 +21346,7 @@ textarea.form-control-lg {
 }
 
 .nav {
-  height: 10%;
+  height: 8%;
   width: 100%;
 }
 
@@ -21356,6 +21356,9 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.header h1, .header .h1 {
+  font-weight: bold;
 }
 
 .header-box {
@@ -21377,14 +21380,21 @@ textarea.form-control-lg {
 
 .header-p {
   height: 35px;
-  width: 200px;
+  width: 280px;
   color: white;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+.header-p span {
+  font-size: 20px;
+}
+
+.header-p-span {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
