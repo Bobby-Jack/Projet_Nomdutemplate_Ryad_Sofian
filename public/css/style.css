@@ -21423,6 +21423,19 @@ textarea.form-control-lg {
   height: 300px;
 }
 
+#section7-row {
+  margin-top: 30px;
+  display: flex;
+}
+
+#section7-col-left {
+  flex-grow: 1;
+}
+
+#section7-col-right {
+  flex-grow: 2;
+}
+
 * {
   font-family: roboto;
 }
