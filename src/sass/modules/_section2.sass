@@ -1,0 +1,98 @@
+#section2
+    height: 450px
+    width: 100%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    font-family: roboto
+
+.section2-box
+    height: 80%
+    width: 80%
+    margin: auto
+
+.section2-div1
+    height: 45%
+    width: 100%
+    text-align: center
+    button
+        background-color: rgb(253,239,242)
+        color: rgb(228,60,90)
+        height: 28px
+        width: 90px
+        border: none
+        border-radius: 30px
+    h2
+        font-weight: bold
+    span
+        color: rgb(228,60,90)
+        font-weight: bold
+
+.section2-div2
+    height: 55%
+    width: 100%
+    display: flex
+
+.section2-div2-gauche
+    height: 95%
+    width: 49%
+    i
+        color: rgb(228,60,90)
+
+.section2-div2-droite
+    height: 95%
+    width: 49%
+    button
+        background-color: white
+        border: solid 2px rgb(228,60,90)
+        height: 40px
+        width: 130px
+        color: rgb(228,60,90)
+        border-radius: 40px
+        transition: 0.5s
+        &:hover
+            background-color: rgb(228,60,90)
+            color: white
+
+@media (max-width: 1024px) and (min-width: 600px)
+
+    #section2
+        height: 700px
+
+    .section2-div1
+        height: 30%
+
+    .section2-div2
+        flex-direction: column
+        justify-content: space-evenly
+        height: 70%
+
+    .section2-div2-gauche
+        height: 45%
+        width: 100%
+
+    .section2-div2-droite
+        height: 45%
+        width: 100%
+
+@media (max-width: 600px) and (min-width: 320px)
+
+    #section2
+        height: 1000px
+
+    .section2-div1
+        height: 20%
+
+    .section2-div2
+        flex-direction: column
+        justify-content: space-evenly
+        height: 80%
+
+    .section2-div2-gauche
+        height: 45%
+        width: 100%
+
+    .section2-div2-droite
+        height: 45%
+        width: 100%
