@@ -22223,6 +22223,7 @@ textarea.form-control-lg {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: 0.3s;
 }
 .header-box button {
   background-color: rgba(255, 255, 255, 0.1);
@@ -22231,6 +22232,10 @@ textarea.form-control-lg {
   width: 150px;
   color: white;
   border-radius: 40px;
+}
+.header-box button:hover {
+  background-color: white;
+  color: black;
 }
 
 .header-p {
@@ -22494,6 +22499,34 @@ textarea.form-control-lg {
   .section3-div3 {
     flex-wrap: wrap;
   }
+}
+#section4 {
+  height: 30vh;
+  width: 100%;
+  background-image: url("../img/cta-bg.jpg");
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: darken;
+  background-size: 100%;
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+#section4 button {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: solid 2px white;
+  height: 40px;
+  width: 150px;
+  color: white;
+  border-radius: 40px;
+  transition: 0.3s;
+}
+#section4 button:hover {
+  background-color: white;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
