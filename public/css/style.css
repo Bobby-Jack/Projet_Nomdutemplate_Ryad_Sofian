@@ -21473,6 +21473,10 @@ textarea.form-control-lg {
   height: 80%;
   width: 80%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .section3-div1 {
@@ -21497,7 +21501,7 @@ textarea.form-control-lg {
 }
 
 .section3-div2 {
-  height: 40%;
+  height: 38%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -21505,9 +21509,11 @@ textarea.form-control-lg {
 }
 
 .section3-div3 {
-  height: 40%;
+  height: 38%;
   width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .section-3-card {
@@ -21518,6 +21524,21 @@ textarea.form-control-lg {
 }
 .section-3-card i {
   color: rgb(228, 60, 90);
+}
+
+.section-3-card-a {
+  height: 95%;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section3-card2 {
+  height: 30%;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*# sourceMappingURL=style.css.map */
