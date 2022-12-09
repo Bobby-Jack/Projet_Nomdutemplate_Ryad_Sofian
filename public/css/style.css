@@ -21436,6 +21436,44 @@ textarea.form-control-lg {
   flex-grow: 2;
 }
 
+.section7-info {
+  display: flex;
+  gap: 15px;
+}
+
+.section7-icon {
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.section7-info-content {
+  text-align: start;
+}
+
+@media (max-width: 1024px) and (min-width: 600px) {
+  #section7-row {
+    flex-direction: column;
+  }
+  #section7-col-left {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) and (min-width: 320px) {
+  #section7-row {
+    flex-direction: column;
+  }
+  #section7-col-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
 * {
   font-family: roboto;
 }

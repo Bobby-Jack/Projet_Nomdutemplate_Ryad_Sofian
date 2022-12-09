@@ -28,8 +28,10 @@
         <div id="section7-row">
             <div id="section7-col-left">
                 <div class="section7-info">
-                    <div class="section7-icon"></div>
-                    <div>
+                    <div class="section7-icon bg-persoLightPink">
+                        <i class="fa-solid fa-location-dot text-persoPink"></i>
+                    </div>
+                    <div class="section7-info-content">
                         <h5>Location:</h5>
                         <p>
                             Place de la minoterie10.<br>
@@ -38,15 +40,19 @@
                     </div>
                 </div>
                 <div class="section7-info">
-                    <div class="section7-icon"></div>
-                    <div>
+                    <div class="section7-icon bg-persoLightPink">
+                        <i class="fa-regular fa-envelope text-persoPink"></i>
+                    </div>
+                    <div class="section7-info-content">
                         <h5>Email:</h5>
                         <p>info@molengeek.com</p>
                     </div>
                 </div>
                 <div class="section7-info">
-                    <div class="section7-icon"></div>
-                    <div>
+                    <div class="section7-icon bg-persoLightPink">
+                        <i class="fa-solid fa-mobile text-persoPink"></i>
+                    </div>
+                    <div class="section7-info-content">
                         <h5>Call:</h5>
                         <p>+1 5589 55488 55s</p>
                     </div>
@@ -60,13 +66,14 @@
                     <div class="col">
                       <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
                     </div>
-                  </div>
+                </div>
                 <div class="mb-3">
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                  </div>
-                  <div class="mb-3">
+                </div>
+                <div class="mb-3">
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                  </div>
+                </div>
+                <button class="bg-persoPink text-white py-2 px-3 border-0 rounded-pill">Send Message</button>
             </div>
         </div>
     </section>
@@ -124,9 +131,11 @@
                             <!-- Links -->
                             <h6 class="text-uppercase fw-bold mb-4">Join Our Newsletter</h6>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto quaerat placeat aut.</p>
-                            <div class="input-group mb-3 rounded-pill" id="section8-form">
-                                <input type="text" class="rounded-pill" aria-label="Recipient's username" id="section8-input">
-                                <button class="input-group-text rounded-pill  bg-persoPink text-white border-0" id="section8-btn">Subscribe</button>
+                            <div class="position-relative">
+                                <input
+                                    class="border border-danger rounded-pill text-white bg-danger position-absolute end-0 px-3 py-2"
+                                    type="button" value="Subscribe">
+                                <input class="border border-danger rounded-pill w-100 py-2" type="text">
                             </div>
                         </div>
                         <!-- Grid column -->
