@@ -21397,4 +21397,27 @@ textarea.form-control-lg {
   font-weight: bold;
 }
 
+#section2 {
+  height: 40vh;
+  width: 100%;
+}
+
+.section2-box {
+  height: 80%;
+  width: 80%;
+  margin: auto;
+}
+
+.section2-div1 {
+  height: 40%;
+  width: 100%;
+  text-align: center;
+}
+
+.section2-div2 {
+  height: 60%;
+  width: 100%;
+  display: flex;
+}
+
 /*# sourceMappingURL=style.css.map */
