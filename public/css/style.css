@@ -21443,9 +21443,18 @@ textarea.form-control-lg {
   color: rgb(228, 60, 90);
 }
 
-#section8-btn {
-  right: -30px;
-  z-index: 2 !important;
+#section8-input {
+  border-style: hidden;
+}
+
+#section8-btn:hover {
+  background-color: white !important;
+  color: rgb(228, 60, 90) !important;
+  transition: all 0.2s ease 0s !important;
+}
+
+#section8-form {
+  border: 1px rgb(228, 60, 90) solid;
 }
 
 #section8-Bottom {
@@ -21461,6 +21470,7 @@ textarea.form-control-lg {
   gap: 5px;
 }
 #section8-Bottom-right .section8-icon {
+  text-decoration: none;
   background-color: rgb(228, 60, 90);
   height: 30px;
   width: 30px;
@@ -21472,6 +21482,14 @@ textarea.form-control-lg {
 }
 #section8-Bottom-right .section8-icon i {
   color: white;
+}
+#section8-Bottom-right .section8-icon:hover {
+  background-color: #ffffff;
+  border: 1px solid rgb(228, 60, 90);
+  transition: all 0.2s ease 0s !important;
+}
+#section8-Bottom-right .section8-icon:hover i {
+  color: rgb(228, 60, 90);
 }
 
 /*# sourceMappingURL=style.css.map */
