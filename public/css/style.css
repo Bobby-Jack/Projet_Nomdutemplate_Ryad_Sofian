@@ -21414,6 +21414,32 @@ textarea.form-control-lg {
 }
 #section6 {
   text-align: center;
+  width: 100%;
+  padding: 10px 10% 10px 10%;
+}
+
+#section6-row {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.section6-card {
+  height: 100%;
+  width: 25%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section6-card img {
+  height: 75%;
+  width: 100%;
+}
+.section6-card .section6-card-content {
+  height: 25%;
+  width: 100%;
+  background-color: white;
 }
 
 #section7 {
