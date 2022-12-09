@@ -1,0 +1,41 @@
+#section7
+    text-align: center
+    width: 100%
+    padding: 10px 10% 10px 10%
+.section7-map
+    width: 100%
+    height: 300px
+#section7-row
+    margin-top: 30px
+    display: flex
+#section7-col-left
+    flex-grow: 1
+#section7-col-right
+    flex-grow: 2
+.section7-info
+    display: flex
+    gap: 15px
+.section7-icon
+    height: 50px
+    width: 50px
+    padding: 5px
+    display: flex
+    justify-content: center
+    align-items: center
+    border-radius: 50%
+.section7-info-content
+    text-align: start
+@media (max-width: 1024px) and (min-width: 600px)
+    #section7-row
+        flex-direction: column
+    #section7-col-left
+        display: flex
+        justify-content: center
+@media (max-width: 600px) and (min-width: 320px)
+    #section7-row
+        flex-direction: column
+    #section7-col-left
+        display: flex
+        justify-content: center
+        flex-direction: column
+        
