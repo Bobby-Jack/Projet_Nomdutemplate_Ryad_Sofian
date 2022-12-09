@@ -21416,10 +21416,11 @@ textarea.form-control-lg {
   text-align: center;
   width: 100%;
   padding: 10px 10% 10px 10%;
+  margin-bottom: 50px;
 }
 
 #section6-row {
-  height: 400px;
+  height: 350px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -21440,6 +21441,15 @@ textarea.form-control-lg {
   height: 25%;
   width: 100%;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section6-card .section6-role {
+  font-family: robotoT;
+  opacity: 0.5;
+  font-size: 0.8em;
 }
 
 #section7 {
